@@ -138,30 +138,3 @@ hotel_management_system/
 ├── hotel_management.py
 └── README.md
 
-## User Interface (UI)
-
-The Hotel Management System uses a terminal-based interactive user interface.
-
-The interface is designed to simulate a real hotel management software dashboard using a clean menu-driven structure.
-
-Users can navigate through different management sections using numbered menu options.
-
----
-
-### Main Menu Interface
-
-The application starts with a central main menu.
-
-Options include:
-
-```bash
-╔══════════════════════════════════════════════════╗
-║        HOTEL MANAGEMENT SYSTEM - MAIN MENU       ║
-╚══════════════════════════════════════════════════╝
-
-1. Room Management
-2. Customer Management
-3. Booking & Check-In/Out
-4. Billing & Invoice
-5. Dashboard & Reports
-0. Exit
