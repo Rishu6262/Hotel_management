@@ -92,34 +92,71 @@ The system stores:
 ---
 ---
 
-### Booking Management
-- New room booking
-- Customer verification before booking
-- Add new customer during booking
-- Room selection
-- Check-in date management
-- Check-out date management
-- Automatic stay duration calculation
-- Booking summary preview
-- Booking confirmation
+## 📅 Booking Management
+
+The Booking Management module handles the complete room reservation workflow, from customer verification to booking confirmation.
+
+### Key Features
+
+- 🆕 Create new room bookings
+- 🔐 Verify customer details before booking
+- 👤 Register a new customer directly during the booking process
+- 🛏️ Select an available room
+- 📅 Manage check-in date
+- 📅 Manage check-out date
+- 🧮 Automatically calculate total stay duration
+- 💰 Calculate booking cost based on room price and stay duration
+- 📋 Preview complete booking summary
+- ✅ Confirm and store the booking
 
 ---
 
-### Check-Out Management
-- Check-out customer
-- Auto room release after checkout
-- Update room status automatically
+## 🔑 Check-Out Management
+
+The Check-Out module manages the completion of a customer's stay and automatically updates the room status.
+
+### Key Features
+
+- 🚪 Process customer check-out
+- 🔍 Verify active booking before checkout
+- 🧾 Calculate final payable amount
+- 🔄 Automatically release the occupied room
+- 🟢 Update room status to **Available**
+- 📊 Keep booking and room information synchronized
 
 ---
 
-### Billing & Invoice
-- Generate invoice for booking
-- Automatic room charge calculation
-- GST calculation
-- Total amount calculation
-- Payment status:
-  - Paid
-  - Pending
+## 🧾 Billing & Invoice Management
+
+The Billing module automatically calculates the customer's final bill based on room charges and applicable GST.
+
+### Key Features
+
+- 🧾 Generate invoice for completed bookings
+- 🛏️ Calculate room charges based on price per night
+- 🌙 Calculate total cost according to stay duration
+- 🧮 Automatically calculate GST
+- 💰 Calculate final payable amount
+- 💳 Maintain payment status
+- ✅ **Paid** payment status
+- ⏳ **Pending** payment status
+- 📋 Provide a clear billing summary to the customer
+
+### 💰 Billing Flow
+
+```text
+Room Price / Night
+        ↓
+Stay Duration
+        ↓
+Room Charges
+        ↓
+GST Calculation
+        ↓
+Total Amount
+        ↓
+Payment Status
+(Paid / Pending)
 
 ---
 
