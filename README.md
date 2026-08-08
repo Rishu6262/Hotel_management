@@ -39,35 +39,57 @@ The project follows a **menu-driven architecture** and demonstrates the practica
 
 Overall, this project provides a practical foundation for understanding how a **real-world hotel management workflow** can be implemented using Python and can later be extended into a **GUI, database-driven, or web-based application**.
 
-## Features
+# ✨ Features
 
-### Room Management
-- View all hotel rooms
-- View available rooms
-- View booked rooms
-- Room categories:
-  - Single Room
-  - Double Room
-  - Suite Room
-- Price per night display
-- Real-time room availability updates
+The Hotel Management System provides a set of practical features designed to simplify day-to-day hotel operations.
 
 ---
 
-### Customer Management
-- Add new customer
-- Store customer details:
-  - Name
-  - Phone number
-  - Email
-  - Address
-  - ID proof
-- View all customers
-- Search customer by:
-  - Customer ID
-  - Name
-  - Phone number
+## 🛏️ Room Management
 
+The Room Management module helps hotel staff monitor and manage room availability efficiently.
+
+### Key Features
+
+- 🏨 View all hotel rooms
+- 🟢 View currently available rooms
+- 🔴 View booked rooms
+- 🏷️ Support multiple room categories:
+  - 🛏️ Single Room
+  - 🛌 Double Room
+  - 👑 Suite Room
+- 💰 Display room price per night
+- 🔄 Automatically update room availability based on booking and checkout status
+- 📊 Quickly identify the current room occupancy status
+
+---
+
+## 👤 Customer Management
+
+The Customer Management module maintains essential guest information and provides quick access to customer records.
+
+### Customer Information
+
+The system stores:
+
+- 🆔 Customer ID
+- 👤 Customer Name
+- 📱 Phone Number
+- 📧 Email Address
+- 🏠 Address
+- 🪪 ID Proof
+
+### Customer Operations
+
+- ➕ Add new customer
+- 📋 View all registered customers
+- 🔎 Search customer by:
+  - Customer ID
+  - Customer Name
+  - Phone Number
+- 📝 Maintain customer information for booking and billing operations
+
+---
 ---
 
 ### Booking Management
