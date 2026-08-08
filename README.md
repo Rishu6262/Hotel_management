@@ -20,24 +20,24 @@ This project was developed as a **real-world Python practice application** to st
 Overall, this project provides hands-on experience in building a **practical management system with Python**, while creating a strong foundation for developing future **database-driven, GUI-based, or web-based applications**.
 ---
 
-## Project Overview
+## 📌 Project Overview
 
-The Hotel Management System is a terminal-based application that automates core hotel operations.
+The **Hotel Management System** is a terminal-based Python application designed to simplify and automate essential hotel operations through a **menu-driven interface**.
 
-It helps hotel staff manage:
+The system helps hotel staff efficiently manage the complete hotel workflow, including:
 
-- Room availability
-- Customer records
-- New bookings
-- Check-in / Check-out
-- Billing and invoice generation
-- Payment tracking
-- Revenue reporting
-- Dashboard analytics
+- 🛏️ **Room Availability** – View available and booked rooms.
+- 👤 **Customer Records** – Add, view, and search customer information.
+- 📅 **Room Bookings** – Create and manage new customer bookings.
+- 🔑 **Check-In / Check-Out** – Manage the complete guest stay process.
+- 🧾 **Billing & Invoice Generation** – Calculate room charges and generate billing details.
+- 💳 **Payment Tracking** – Maintain paid and pending payment records.
+- 💰 **Revenue Reporting** – Track collected revenue and pending amounts.
+- 📊 **Dashboard Analytics** – Display important hotel statistics in one place.
 
-The project follows a menu-driven architecture and demonstrates practical implementation of Python concepts in a real-world management system.
+The project follows a **menu-driven architecture** and demonstrates the practical application of Python concepts such as **functions, dictionaries, loops, conditional statements, data validation, date calculations, CRUD-style operations, and state management**.
 
----
+Overall, this project provides a practical foundation for understanding how a **real-world hotel management workflow** can be implemented using Python and can later be extended into a **GUI, database-driven, or web-based application**.
 
 ## Features
 
